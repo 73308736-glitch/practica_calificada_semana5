@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formulario de solicitud y contacto de MetroBus Lima">
+  <title>MetroBus Lima - Formulario</title>
+  <link rel="stylesheet" href="css/metrobus.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">MetroBus Lima</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="rutas.html">Rutas</a></li>
+        <li><a href="como-funciona.html">Cómo funciona</a></li>
+        <li><a href="formulario.html">Formulario</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="recarga">
+      <h2>Recarga de tarjeta</h2>
+      <div class="recarga-contenedor">
+        <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Icono animado de tarjeta MetroBus" class="icono-tarjeta-animada">
+          <circle cx="60" cy="60" r="55" fill="#eef2f7"/>
+          <rect x="25" y="35" width="70" height="48" rx="6" fill="#0b5ed7"/>
+          <rect x="25" y="47" width="70" height="10" fill="#222222"/>
+          <rect x="33" y="65" width="24" height="8" rx="2" fill="#f5a300"/>
+          <circle cx="80" cy="70" r="7" fill="#cfe6ff"/>
+        </svg>
+
+        <form id="form-recarga">
+          <fieldset>
+            <legend>Datos de recarga</legend>
+
+            <label for="numero-tarjeta">Número de tarjeta:</label>
+            <input type="text" id="numero-tarjeta" name="numero-tarjeta" pattern="[0-9]{10}" maxlength="10" placeholder="10 dígitos" required>
+
+            <label for="monto">Monto a recargar (S/):</label>
+            <input type="number" id="monto" name="monto" min="2" step="0.5" required>
+
+            <input type="submit" class="btn-recarga" value="Recargar tarjeta">
+          </fieldset>
+        </form>
+      </div>
+
+      <div id="confirmacion-recarga" class="confirmacion-recarga" role="status"></div>
+
+      <div class="historial-contenedor">
+        <h3>Historial de recargas (guardado en este navegador)</h3>
+        <ul id="lista-historial" class="historial-lista"></ul>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Formulario de solicitud / reclamo</h2>
+      <form>
+        <fieldset>
+          <legend>Datos de tu solicitud</legend>
+
+          <label for="nombre">Nombre completo:</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="dni">DNI:</label>
+          <input type="text" id="dni" name="dni" pattern="[0-9]{8}" maxlength="8" required>
+
+          <label for="correo">Correo:</label>
+          <input type="email" id="correo" name="correo" required>
+
+          <label for="tipo">Tipo de solicitud:</label>
+          <select id="tipo" name="tipo" required>
+            <option value="">Selecciona una opción</option>
+            <option value="tarjeta">Problema con la tarjeta</option>
+            <option value="ruta">Reclamo por ruta o frecuencia</option>
+            <option value="estacion">Reporte de estación o paradero</option>
+            <option value="otro">Otro</option>
+          </select>
+
+          <label for="mensaje">Describe tu solicitud:</label>
+          <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+          <input type="submit" value="Enviar solicitud">
+        </fieldset>
+      </form>
+
+      <p class="datos-contacto">
+        Oficina principal: Av. Naranjal 1234, Independencia, Lima <br>
+        Central telefónica: (+51) 977562931 · Correo: contacto@metrobuslima.pe <br>
+        Horario de atención: lunes a sábado, 05:00 a 23:00
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 MetroBus Lima — Proyecto educativo del curso de Diseño Web </p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

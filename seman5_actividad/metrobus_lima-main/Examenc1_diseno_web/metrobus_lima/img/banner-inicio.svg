@@ -1,0 +1,23 @@
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración de un bus de MetroBus Lima circulando por una avenida">
+  <rect width="800" height="260" fill="#cfe6ff"/>
+  <circle cx="700" cy="60" r="35" fill="#f5a300"/>
+  <rect x="0" y="150" width="800" height="110" fill="#8a8f94"/>
+  <rect x="0" y="150" width="800" height="10" fill="#ffffff"/>
+  <rect x="0" y="200" width="800" height="6" fill="#ffffff" opacity="0.6"/>
+
+  <rect x="40" y="80" width="60" height="120" fill="#5b6b78"/>
+  <rect x="120" y="60" width="70" height="140" fill="#6d7c88"/>
+  <rect x="650" y="70" width="80" height="130" fill="#5b6b78"/>
+
+  <g>
+    <rect x="260" y="90" width="280" height="90" rx="16" fill="#0b5ed7"/>
+    <rect x="280" y="105" width="60" height="35" rx="4" fill="#cfe6ff"/>
+    <rect x="350" y="105" width="60" height="35" rx="4" fill="#cfe6ff"/>
+    <rect x="420" y="105" width="60" height="35" rx="4" fill="#cfe6ff"/>
+    <rect x="260" y="150" width="280" height="14" fill="#f5a300"/>
+    <circle cx="300" cy="190" r="18" fill="#222222"/>
+    <circle cx="300" cy="190" r="7" fill="#dddddd"/>
+    <circle cx="490" cy="190" r="18" fill="#222222"/>
+    <circle cx="490" cy="190" r="7" fill="#dddddd"/>
+  </g>
+</svg>

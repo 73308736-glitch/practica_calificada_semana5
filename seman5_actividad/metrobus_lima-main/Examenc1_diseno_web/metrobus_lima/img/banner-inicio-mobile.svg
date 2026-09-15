@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración simplificada de un bus de MetroBus Lima">
+  <rect width="400" height="260" fill="#cfe6ff"/>
+  <circle cx="330" cy="55" r="28" fill="#f5a300"/>
+  <rect x="0" y="160" width="400" height="100" fill="#8a8f94"/>
+  <rect x="0" y="160" width="400" height="10" fill="#ffffff"/>
+
+  <g>
+    <rect x="90" y="100" width="220" height="80" rx="14" fill="#0b5ed7"/>
+    <rect x="106" y="114" width="46" height="30" rx="4" fill="#cfe6ff"/>
+    <rect x="164" y="114" width="46" height="30" rx="4" fill="#cfe6ff"/>
+    <rect x="222" y="114" width="46" height="30" rx="4" fill="#cfe6ff"/>
+    <rect x="90" y="155" width="220" height="12" fill="#f5a300"/>
+    <circle cx="125" cy="188" r="15" fill="#222222"/>
+    <circle cx="125" cy="188" r="6" fill="#dddddd"/>
+    <circle cx="275" cy="188" r="15" fill="#222222"/>
+    <circle cx="275" cy="188" r="6" fill="#dddddd"/>
+  </g>
+</svg>

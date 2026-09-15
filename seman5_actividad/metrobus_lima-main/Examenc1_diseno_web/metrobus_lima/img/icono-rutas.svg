@@ -1,0 +1,10 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Icono de rutas de bus">
+  <circle cx="60" cy="60" r="55" fill="#eef2f7"/>
+  <path d="M15 85 L105 85" stroke="#8a8f94" stroke-width="6" stroke-dasharray="10 8"/>
+  <rect x="30" y="45" width="60" height="30" rx="8" fill="#0b5ed7"/>
+  <rect x="38" y="52" width="16" height="12" rx="2" fill="#cfe6ff"/>
+  <rect x="58" y="52" width="16" height="12" rx="2" fill="#cfe6ff"/>
+  <circle cx="42" cy="78" r="6" fill="#222222"/>
+  <circle cx="78" cy="78" r="6" fill="#222222"/>
+  <path d="M30 45 L20 45 L15 55 L30 55 Z" fill="#f5a300"/>
+</svg>

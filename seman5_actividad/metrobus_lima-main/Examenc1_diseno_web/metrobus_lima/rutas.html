@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rutas y tarifas de MetroBus Lima">
+  <title>MetroBus Lima - Rutas</title>
+  <link rel="stylesheet" href="css/metrobus.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">MetroBus Lima</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="rutas.html">Rutas</a></li>
+        <li><a href="como-funciona.html">Cómo funciona</a></li>
+        <li><a href="formulario.html">Formulario</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="rutas">
+      <h2>Rutas y tarifas</h2>
+      <div class="bloque-rutas">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Ruta</th>
+            <th scope="col">Recorrido</th>
+            <th scope="col">Frecuencia</th>
+            <th scope="col">Horario</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ruta A</td>
+            <td>Chorrillos - Independencia</td>
+            <td>3 min</td>
+            <td>05:00 - 23:00</td>
+          </tr>
+          <tr>
+            <td>Ruta B</td>
+            <td>Barranco - San Juan de Lurigancho</td>
+            <td>5 min</td>
+            <td>05:00 - 22:30</td>
+          </tr>
+          <tr>
+            <td>Ruta C (alimentadora)</td>
+            <td>Villa El Salvador - Estación Matellini</td>
+            <td>8 min</td>
+            <td>05:30 - 22:00</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="datos-contacto">Tarjeta personal: S/ 5.00 · Pasaje adulto: S/ 2.50 · Pasaje universitario: S/ 1.50</p>
+      </div>
+
+      <figure class="simulacion-figura">
+        <svg viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Simulación animada del bus recorriendo la Ruta A" class="svg-simulacion">
+          <line x1="30" y1="50" x2="570" y2="50" stroke="#8a8f94" stroke-width="6"/>
+          <circle cx="30" cy="50" r="7" fill="#0d1b3e"/>
+          <circle cx="200" cy="50" r="7" fill="#0d1b3e"/>
+          <circle cx="370" cy="50" r="7" fill="#0d1b3e"/>
+          <circle cx="570" cy="50" r="7" fill="#0d1b3e"/>
+          <text x="30" y="80" font-size="12" text-anchor="middle" fill="#1a1a2e">Chorrillos</text>
+          <text x="200" y="80" font-size="12" text-anchor="middle" fill="#1a1a2e">Angamos</text>
+          <text x="370" y="80" font-size="12" text-anchor="middle" fill="#1a1a2e">Naranjal</text>
+          <text x="570" y="80" font-size="12" text-anchor="middle" fill="#1a1a2e">Independencia</text>
+          <circle cx="30" cy="50" r="10" fill="#f2a900" class="bus-punto"/>
+        </svg>
+        <figcaption>Simulación: recorrido del bus en la Ruta A (Chorrillos - Independencia)</figcaption>
+      </figure>
+
+      <h2>Estaciones por línea</h2>
+      <div class="buscador-contenedor">
+        <label for="buscador-estaciones">Buscar estación:</label>
+        <input type="search" id="buscador-estaciones" placeholder="Ej. Naranjal">
+      </div>
+      <div class="lineas-estaciones">
+        <div class="linea">
+          <h3>Línea A · Chorrillos - Independencia</h3>
+          <ul class="estaciones-lista">
+            <li>Matellini</li>
+            <li>Angamos</li>
+            <li>Javier Prado</li>
+            <li>Naranjal</li>
+            <li>Independencia Central</li>
+          </ul>
+        </div>
+        <div class="linea">
+          <h3>Línea B · Barranco - San Juan de Lurigancho</h3>
+          <ul class="estaciones-lista">
+            <li>Barranco</li>
+            <li>Miraflores</li>
+            <li>Javier Prado</li>
+            <li>Santa Anita</li>
+            <li>San Juan de Lurigancho</li>
+          </ul>
+        </div>
+        <div class="linea">
+          <h3>Línea C (alimentadora) · Villa El Salvador - Estación Matellini</h3>
+          <ul class="estaciones-lista">
+            <li>Villa El Salvador Norte</li>
+            <li>Pachacámac</li>
+            <li>Villa María</li>
+            <li>José Gálvez</li>
+            <li>Estación Matellini</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 MetroBus Lima — Proyecto educativo del curso de Diseño Web </p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

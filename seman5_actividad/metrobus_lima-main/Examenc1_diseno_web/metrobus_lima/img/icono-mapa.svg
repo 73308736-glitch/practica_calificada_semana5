@@ -1,0 +1,8 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Icono de mapa de estaciones">
+  <circle cx="60" cy="60" r="55" fill="#eef2f7"/>
+  <path d="M25 40 L50 30 L70 40 L95 30 L95 85 L70 95 L50 85 L25 95 Z" fill="#cfe6ff" stroke="#0b5ed7" stroke-width="3"/>
+  <line x1="50" y1="30" x2="50" y2="85" stroke="#0b5ed7" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="70" y1="40" x2="70" y2="95" stroke="#0b5ed7" stroke-width="2" stroke-dasharray="4 4"/>
+  <circle cx="60" cy="55" r="9" fill="#f5a300"/>
+  <circle cx="60" cy="55" r="3" fill="#ffffff"/>
+</svg>
